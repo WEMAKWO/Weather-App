@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+background: rgb(30, 30, 194);
+margin: 3rem auto;
+width: 50%;
+border-radius: 10px;
+padding: 2rem 5rem;
+color: #ffff;
+}
+
+.search-weather{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.search-weather i{
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+}
+
+input{
+    background: rgba(255, 255, 255, 0.2);
+    border:none;
+    outline: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    color: #ffff;
+   
+}
+
+input::placeholder{
+    color: #ffff;
+}
+
+.search-weather span{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.search-weather span:first-child{
+    margin-right: 1rem;
+}
+
+.weather-details{
+    text-align: center;
+    margin: 2rem;
+}
+
+.time-weather{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.weather-condition{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 2rem 3rem;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.icon-weather img{
+    width: 40%;
+}
+
+.minmax{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.weather-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.weather-desc{
+    display: flex;
+    justify-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+}
+
+
+
+.weather-desc i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
